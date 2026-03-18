@@ -9,6 +9,8 @@ OBJ=$(SRC:src/%.asm=build/%.o)
 
 BIN=PixelPoint
 
+.PHONY: all clean test
+
 all: $(BIN)
 
 build/%.o: src/%.asm
