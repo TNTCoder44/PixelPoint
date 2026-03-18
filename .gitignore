@@ -1,6 +1,6 @@
-build/
-.env/
+build/*
+.env/*
 .DS_Store
-.vs_code/
-.vs/
+.vs_code/*
+.vs/*
 
